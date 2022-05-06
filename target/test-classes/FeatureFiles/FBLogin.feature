@@ -11,7 +11,7 @@ And User should type the password in the facebook page
 And User should click the login button
 Then User should navigate to incorrect credential page
 
-@regression
+@amit
 Scenario Outline: To validate the login page with valid username and invalid password
 
 When User should type the valid username "<user>" in the facebook page

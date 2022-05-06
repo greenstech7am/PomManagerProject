@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="32.620275">
-<testcase classname="To validate the login functionality of facebook page" name="Validate the login page with invalid username and invalid password" time="17.968689">
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="29.23244">
+<testcase classname="To validate the login functionality of facebook page" name="Validate the login page with invalid username and invalid password" time="16.258737">
 <system-out><![CDATA[Given User should launch the browser and load the facebook page.............passed
 When User should type the username in the facebook page.....................passed
 And I need to print the title of my page....................................passed
@@ -9,7 +9,7 @@ And User should click the login button......................................pass
 Then User should navigate to incorrect credential page......................passed
 ]]></system-out>
 </testcase>
-<testcase classname="To validate the login functionality of facebook page" name="To validate the login page with valid username and invalid password" time="4.555865">
+<testcase classname="To validate the login functionality of facebook page" name="To validate the login page with valid username and invalid password" time="3.319595">
 <failure message="java.lang.NullPointerException&#13;&#10;&#9;at org.stepdefinition.FBLoginStepDefinition.user_should_click_the_login_button(FBLoginStepDefinition.java:41)&#13;&#10;&#9;at ✽.User should click the login button(file:src/test/resources/FeatureFiles/FBLogin.feature:20)&#13;&#10;"><![CDATA[Given User should launch the browser and load the facebook page.............passed
 When User should type the valid username "java" in the facebook page........passed
 And I need to print the current url of my page..............................passed
@@ -23,7 +23,7 @@ java.lang.NullPointerException
 	at ✽.User should click the login button(file:src/test/resources/FeatureFiles/FBLogin.feature:20)
 ]]></failure>
 </testcase>
-<testcase classname="To validate the forgot password functionality" name="To validate the forgot password with invalid mobilenumber" time="10.095721">
+<testcase classname="To validate the forgot password functionality" name="To validate the forgot password with invalid mobilenumber" time="9.654108">
 <system-out><![CDATA[Given User should launch the chrome browser and load the facebook url.......passed
 When User should click the forgot password link.............................passed
 And User should type the invalid mobile Number..............................passed

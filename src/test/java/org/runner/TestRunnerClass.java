@@ -15,7 +15,7 @@ import io.cucumber.junit.CucumberOptions.SnippetType;
 dryRun = false, plugin = {"html:target\\reports",
 						  "junit:target\\reports\\fbjunit.xml",
 						  "json:target\\reports\\fblogin.json",
-						  "rerun:src\\test\\resources\\Rerun\\Failed.txt"})
+						  "rerun:src\\test\\resources\\Rerun\\Failed.txt"}, tags= {"~@amit"})
 public class TestRunnerClass extends JVMReport{
 	
 	
